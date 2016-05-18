@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elementtypesconfigurations:ElementTypeSetConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.1" xmlns:stereotypematcher="http://www.eclipse.org/papyrus/uml/types/stereotypematcher/1.1" xmi:id="_I3j80BzsEeaUCNZJoDLoVw">
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_QIt2QBzsEeaUCNZJoDLoVw" identifier="org.eclipse.papyrus.tutorial.anatomy.types.bugzilla.Class_Shape" name="Bugzilla_Class_Shape" hint="Class_Shape">
+    <specializedTypesID>org.eclipse.papyrus.tutorial.anatomy.types.bugzilla</specializedTypesID>
+    <specializedTypesID>org.eclipse.papyrus.umldi.Class_Shape</specializedTypesID>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_nX-_8BzxEeaUCNZJoDLoVw">
+      <stereotypesQualifiedNames>Anatomy::WorkPart</stereotypesQualifiedNames>
+    </matcherConfiguration>
+  </elementTypeConfigurations>
+</elementtypesconfigurations:ElementTypeSetConfiguration>

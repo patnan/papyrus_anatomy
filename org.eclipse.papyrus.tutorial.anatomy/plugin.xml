@@ -36,6 +36,14 @@
           path="types/anatomy.elementtypesconfigurations">
     </elementTypeSet>
  </extension>
+ 
+ <extension
+       point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
+    <elementTypeSet
+          clientContextID="org.eclipse.papyrus.infra.services.edit.TypeContext"
+          path="types/anatomy.diagram.elementtypesconfigurations">
+    </elementTypeSet>
+ </extension>
  <extension
        point="org.eclipse.papyrus.infra.newchild">
     <menuCreationModel
