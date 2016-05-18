@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ElementCreationMenuModel:Folder xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ElementCreationMenuModel="http://www.eclipse.org/papyrus/infra/newchild/elementcreationmenumodel" label="Anatomy" icon="platform:/plugin/org.eclipse.papyrus.tutorial.anatomy/icons/anatomy.png">
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Bugzilla" elementTypeIdRef="org.eclipse.papyrus.tutorial.anatomy.types.bugzilla" role=""/>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="WorkItem" elementTypeIdRef="org.eclipse.papyrus.tutorial.anatomy.types.workitem" role=""/>
+  <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu" label="Blocks" icon="" elementTypeIdRef="org.eclipse.papyrus.tutorial.anatomy.types.blocks"/>
+  <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu" label="Relationship" elementTypeIdRef="org.eclipse.papyrus.tutorial.anatomy.types.relationship"/>
+</ElementCreationMenuModel:Folder>

@@ -36,5 +36,11 @@
           path="types/anatomy.elementtypesconfigurations">
     </elementTypeSet>
  </extension>
+ <extension
+       point="org.eclipse.papyrus.infra.newchild">
+    <menuCreationModel
+          model="newChild/anatomy.creationmenumodel">
+    </menuCreationModel>
+ </extension>
 
 </plugin>
