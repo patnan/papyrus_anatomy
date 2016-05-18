@@ -28,5 +28,13 @@
         path="pathmap://ANATOMY_PROFILE/anatomy.profile.uml">
     </profile>
  </extension>
+ 
+ <extension
+       point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
+    <elementTypeSet
+          clientContextID="org.eclipse.papyrus.infra.services.edit.TypeContext"
+          path="types/anatomy.elementtypesconfigurations">
+    </elementTypeSet>
+ </extension>
 
 </plugin>
