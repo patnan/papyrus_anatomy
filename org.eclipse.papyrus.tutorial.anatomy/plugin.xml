@@ -44,6 +44,7 @@
           path="types/anatomy.diagram.elementtypesconfigurations">
     </elementTypeSet>
  </extension>
+ 
  <extension
        point="org.eclipse.papyrus.infra.newchild">
     <menuCreationModel
