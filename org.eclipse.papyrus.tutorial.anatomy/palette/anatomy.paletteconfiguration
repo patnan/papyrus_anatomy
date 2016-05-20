@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paletteconfiguration:PaletteConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:paletteconfiguration="http://www.eclipse.org/papyrus/diagram/paletteconfiguration/0.7" id="org.eclipse.papyrus.tutorial.anatomy.palette" label="Anatomy" description="The palette configuration for the Anatomy">
+  <drawerConfigurations id="org.eclipse.papyrus.tutorial.anatomy.palette.drawer" label="Anatomy Drawer">
+    <ownedConfigurations xsi:type="paletteconfiguration:StackConfiguration" id="org.eclipse.papyrus.tutorial.anatomy.palette.drawer.nodes" label="Nodes">
+      <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.tutorial.anatomy.palette.drawer.bugzilla" label="Bugzilla">
+        <elementDescriptors elementTypeId="org.eclipse.papyrus.tutorial.anatomy.types.bugzilla.Class_Shape"/>
+      </ownedConfigurations>
+      <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.tutorial.anatomy.palette.drawer.workitem" label="WorkItem">
+        <elementDescriptors elementTypeId="org.eclipse.papyrus.tutorial.anatomy.types.workitem.Class_Shape"/>
+      </ownedConfigurations>
+    </ownedConfigurations>
+    <ownedConfigurations xsi:type="paletteconfiguration:StackConfiguration" id="org.eclipse.papyrus.tutorial.anatomy.palette.drawer.edges" label="Edges">
+      <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.tutorial.anatomy.palette.drawer.blocks" label="Blocks" kind="ConnectionTool">
+        <elementDescriptors elementTypeId="org.eclipse.papyrus.tutorial.anatomy.types.blocks.Association_Edge"/>
+      </ownedConfigurations>
+      <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.tutorial.anatomy.palette.drawer.workitem" label="WorkItem" kind="ConnectionTool">
+        <elementDescriptors elementTypeId="org.eclipse.papyrus.tutorial.anatomy.types.relationship.Association_Edge"/>
+      </ownedConfigurations>
+    </ownedConfigurations>
+  </drawerConfigurations>
+  <requiredProfiles>Anatomy</requiredProfiles>
+</paletteconfiguration:PaletteConfiguration>
