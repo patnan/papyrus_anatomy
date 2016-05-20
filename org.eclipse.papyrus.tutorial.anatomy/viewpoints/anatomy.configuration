@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration:PapyrusConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="http://www.eclipse.org/papyrus/infra/viewpoints/configuration" xmi:id="_RCWvgB5WEea52Yg-aRrjNQ" defaultStakeholder="_LBj_0B5YEea52Yg-aRrjNQ">
+  <stakeholders xmi:id="_LBj_0B5YEea52Yg-aRrjNQ" name="Anatomy Modeller" viewpoints="_jwL1sB5YEea52Yg-aRrjNQ"/>
+  <viewpoints xsi:type="configuration:PapyrusViewpoint" xmi:id="_jwL1sB5YEea52Yg-aRrjNQ" name="Anatomy Viewpoint">
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_D4ZvUB5ZEea52Yg-aRrjNQ" name="Anatomy Diagram" icon="platform:/plugin/org.eclipse.papyrus.tutorial.anatomy/icons/anatomy.png" implementationID="PapyrusUMLClassDiagram" categories="_ZF_j4B5YEea52Yg-aRrjNQ" customPalette="platform:/plugin/org.eclipse.papyrus.tutorial.anatomy/palette/anatomy.paletteconfiguration" customStyle="">
+      <modelRules xmi:id="_v-dCAB5bEea52Yg-aRrjNQ">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_wmf5cB5bEea52Yg-aRrjNQ">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_xSdnkB5bEea52Yg-aRrjNQ">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        <origin href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </childRules>
+      <paletteRules xmi:id="_cYkToB5zEea52Yg-aRrjNQ" element=""/>
+    </modelKinds>
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_rAHy4B5zEea52Yg-aRrjNQ" name="AnaNodes" icon="platform:/plugin/org.eclipse.papyrus.tutorial.anatomy/icons/anatomy.png" implementationID="PapyrusUMLClassDiagram" categories="_ZF_j4B5YEea52Yg-aRrjNQ" customPalette="platform:/plugin/org.eclipse.papyrus.tutorial.anatomy/palette/anatomy.paletteconfiguration">
+      <modelRules xmi:id="_0oKrMB5zEea52Yg-aRrjNQ">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_1AXIwB5zEea52Yg-aRrjNQ">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_2RI0IB5zEea52Yg-aRrjNQ">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        <origin href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </childRules>
+      <paletteRules xmi:id="_2kyI4B5zEea52Yg-aRrjNQ" permit="false" element="org.eclipse.papyrus.tutorial.anatomy.palette.nodes.*"/>
+    </modelKinds>
+  </viewpoints>
+  <metamodel href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <categories xmi:id="_ZF_j4B5YEea52Yg-aRrjNQ" name="Anatomy Category"/>
+</configuration:PapyrusConfiguration>

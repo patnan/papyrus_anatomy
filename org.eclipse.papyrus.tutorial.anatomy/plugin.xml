@@ -51,5 +51,20 @@
           model="newChild/anatomy.creationmenumodel">
     </menuCreationModel>
  </extension>
+ 
+ <extension
+       point="org.eclipse.papyrus.infra.viewpoints.policy.custom">
+       <!--
+    <contribution
+          file="configuration/anatomy.configuration"
+          original="platform:/plugin/org.eclipse.papyrus.infra.viewpoints.policy/builtin/default.configuration">
+    </contribution>    
+    -->
+    
+    <configuration
+          file="platform:/plugin/org.eclipse.papyrus.tutorial.anatomy/viewpoints/anatomy.configuration"
+          priority="100">
+    </configuration>
+ </extension>
 
 </plugin>
