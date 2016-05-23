@@ -67,4 +67,16 @@
     </configuration>
  </extension>
 
+
+    <extension point="org.eclipse.papyrus.infra.ui.papyrusDiagram">
+	     <diagramCategory
+	            class="org.eclipse.papyrus.tutorial.anatomy.types.commands.CreateAnatomyModelCommand"
+	            description="Anatomy diagrams"
+	            icon="platform:/plugin/org.eclipse.papyrus.tutorial.anatomy/icons/anatomy.png"
+	            id="Anatomy Category"
+	            label="Anatomy Category">
+	     </diagramCategory>
+    </extension>
+
+
 </plugin>
