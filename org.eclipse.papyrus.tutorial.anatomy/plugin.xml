@@ -67,7 +67,6 @@
     </configuration>
  </extension>
 
-
     <extension point="org.eclipse.papyrus.infra.ui.papyrusDiagram">
 	     <diagramCategory
 	            class="org.eclipse.papyrus.tutorial.anatomy.types.commands.CreateAnatomyModelCommand"
@@ -78,5 +77,12 @@
 	     </diagramCategory>
     </extension>
 
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated anatomy -->
+      <package
+            uri="http:///Anatomy.ecore"
+            class="Anatomy.AnatomyPackage"
+            genModel="profiles/anatomy.genmodel"/>
+   </extension>
 
 </plugin>
