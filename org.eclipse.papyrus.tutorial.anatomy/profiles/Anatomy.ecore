@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="Anatomy" nsURI="http:///Anatomy.ecore" nsPrefix="Anatomy">
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="Anatomy" nsURI="http://www.eclipse.org/papyrus/Anatomy" nsPrefix="Anatomy">
   <eClassifiers xsi:type="ecore:EClass" name="WorkPart">
     <eStructuralFeatures xsi:type="ecore:EReference" name="base_Class" ordered="false"
         lowerBound="1" eType="ecore:EClass ../../org.eclipse.uml2.uml/model/UML.ecore#//Class"/>

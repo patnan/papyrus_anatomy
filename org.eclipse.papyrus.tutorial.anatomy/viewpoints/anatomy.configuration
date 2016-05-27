@@ -3,6 +3,7 @@
   <stakeholders xmi:id="_LBj_0B5YEea52Yg-aRrjNQ" name="Anatomy Modeller" viewpoints="_jwL1sB5YEea52Yg-aRrjNQ"/>
   <viewpoints xsi:type="configuration:PapyrusViewpoint" xmi:id="_jwL1sB5YEea52Yg-aRrjNQ" name="Anatomy Viewpoint">
     <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_D4ZvUB5ZEea52Yg-aRrjNQ" name="Anatomy Diagram" icon="platform:/plugin/org.eclipse.papyrus.tutorial.anatomy/icons/anatomy.png" implementationID="PapyrusUMLClassDiagram" categories="_ZF_j4B5YEea52Yg-aRrjNQ" customPalette="platform:/plugin/org.eclipse.papyrus.tutorial.anatomy/palette/anatomy.paletteconfiguration" customStyle="">
+      <profiles href="http://www.eclipse.org/papyrus/Anatomy#/"/>
       <modelRules xmi:id="_v-dCAB5bEea52Yg-aRrjNQ">
         <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
       </modelRules>
@@ -16,6 +17,7 @@
       <paletteRules xmi:id="_cYkToB5zEea52Yg-aRrjNQ" element=""/>
     </modelKinds>
     <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_rAHy4B5zEea52Yg-aRrjNQ" name="AnaNodes" icon="platform:/plugin/org.eclipse.papyrus.tutorial.anatomy/icons/anatomy.png" implementationID="PapyrusUMLClassDiagram" categories="_ZF_j4B5YEea52Yg-aRrjNQ" customPalette="platform:/plugin/org.eclipse.papyrus.tutorial.anatomy/palette/anatomy.paletteconfiguration">
+      <profiles href="http://www.eclipse.org/papyrus/Anatomy#/"/>
       <modelRules xmi:id="_0oKrMB5zEea52Yg-aRrjNQ">
         <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
       </modelRules>

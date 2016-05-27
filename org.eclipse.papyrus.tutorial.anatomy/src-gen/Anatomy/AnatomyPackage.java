@@ -39,7 +39,7 @@ public interface AnatomyPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	String eNS_URI = "http:///Anatomy.ecore";
+	String eNS_URI = "http://www.eclipse.org/papyrus/Anatomy";
 
 	/**
 	 * The package namespace name.
