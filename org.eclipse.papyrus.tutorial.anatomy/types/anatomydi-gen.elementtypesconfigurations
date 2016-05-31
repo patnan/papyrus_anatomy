@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ASCII"?>
+<elementtypesconfigurations:ElementTypeSetConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.1" identifier="org.eclipse.papyrus.tutorial.anatomydi.elementTypes" metamodelNsURI="http://www.eclipse.org/uml2/5.0.0/UML">
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" identifier="org.eclipse.papyrus.tutorial.anatomydi.Blocks_Association_BranchEdge" name="Blocks (Association_BranchEdge)" hint="Association_BranchEdge">
+    <iconEntry iconPath="/icons/full/obj16/Association.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <specializedTypesID>org.eclipse.papyrus.tutorial.anatomy.Blocks_UML::Association</specializedTypesID>
+    <specializedTypesID>org.eclipse.papyrus.umldi.Association_BranchEdge</specializedTypesID>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" identifier="org.eclipse.papyrus.tutorial.anatomydi.Blocks_Association_Edge" name="Blocks (Association_Edge)" hint="Association_Edge">
+    <iconEntry iconPath="/icons/full/obj16/Association.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <specializedTypesID>org.eclipse.papyrus.tutorial.anatomy.Blocks_UML::Association</specializedTypesID>
+    <specializedTypesID>org.eclipse.papyrus.umldi.Association_Edge</specializedTypesID>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" identifier="org.eclipse.papyrus.tutorial.anatomydi.Blocks_Association_Shape" name="Blocks (Association_Shape)" hint="Association_Shape">
+    <iconEntry iconPath="/icons/full/obj16/Association.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <specializedTypesID>org.eclipse.papyrus.tutorial.anatomy.Blocks_UML::Association</specializedTypesID>
+    <specializedTypesID>org.eclipse.papyrus.umldi.Association_Shape</specializedTypesID>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" identifier="org.eclipse.papyrus.tutorial.anatomydi.Blocks_Association_Shape_CN" name="Blocks (Association_Shape_CN)" hint="Association_Shape_CN">
+    <iconEntry iconPath="/icons/full/obj16/Association.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <specializedTypesID>org.eclipse.papyrus.tutorial.anatomy.Blocks_UML::Association</specializedTypesID>
+    <specializedTypesID>org.eclipse.papyrus.umldi.Association_Shape_CN</specializedTypesID>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" identifier="org.eclipse.papyrus.tutorial.anatomydi.Relationship_Association_BranchEdge" name="Relationship (Association_BranchEdge)" hint="Association_BranchEdge">
+    <iconEntry iconPath="/icons/full/obj16/Association.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <specializedTypesID>org.eclipse.papyrus.tutorial.anatomy.Relationship_UML::Association</specializedTypesID>
+    <specializedTypesID>org.eclipse.papyrus.umldi.Association_BranchEdge</specializedTypesID>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" identifier="org.eclipse.papyrus.tutorial.anatomydi.Relationship_Association_Edge" name="Relationship (Association_Edge)" hint="Association_Edge">
+    <iconEntry iconPath="/icons/full/obj16/Association.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <specializedTypesID>org.eclipse.papyrus.tutorial.anatomy.Relationship_UML::Association</specializedTypesID>
+    <specializedTypesID>org.eclipse.papyrus.umldi.Association_Edge</specializedTypesID>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" identifier="org.eclipse.papyrus.tutorial.anatomydi.Relationship_Association_Shape" name="Relationship (Association_Shape)" hint="Association_Shape">
+    <iconEntry iconPath="/icons/full/obj16/Association.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <specializedTypesID>org.eclipse.papyrus.tutorial.anatomy.Relationship_UML::Association</specializedTypesID>
+    <specializedTypesID>org.eclipse.papyrus.umldi.Association_Shape</specializedTypesID>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" identifier="org.eclipse.papyrus.tutorial.anatomydi.Relationship_Association_Shape_CN" name="Relationship (Association_Shape_CN)" hint="Association_Shape_CN">
+    <iconEntry iconPath="/icons/full/obj16/Association.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <specializedTypesID>org.eclipse.papyrus.tutorial.anatomy.Relationship_UML::Association</specializedTypesID>
+    <specializedTypesID>org.eclipse.papyrus.umldi.Association_Shape_CN</specializedTypesID>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" identifier="org.eclipse.papyrus.tutorial.anatomydi.WorkPart_Class_MetaclassShape" name="WorkPart (Class_MetaclassShape)" hint="Class_MetaclassShape">
+    <iconEntry iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <specializedTypesID>org.eclipse.papyrus.tutorial.anatomy.WorkPart</specializedTypesID>
+    <specializedTypesID>org.eclipse.papyrus.umldi.Class_MetaclassShape</specializedTypesID>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" identifier="org.eclipse.papyrus.tutorial.anatomydi.WorkPart_Class_MetaclassShape_CN" name="WorkPart (Class_MetaclassShape_CN)" hint="Class_MetaclassShape_CN">
+    <iconEntry iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <specializedTypesID>org.eclipse.papyrus.tutorial.anatomy.WorkPart</specializedTypesID>
+    <specializedTypesID>org.eclipse.papyrus.umldi.Class_MetaclassShape_CN</specializedTypesID>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" identifier="org.eclipse.papyrus.tutorial.anatomydi.WorkPart_Class_NestedClassifierLabel" name="WorkPart (Class_NestedClassifierLabel)" hint="Class_NestedClassifierLabel">
+    <iconEntry iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <specializedTypesID>org.eclipse.papyrus.tutorial.anatomy.WorkPart</specializedTypesID>
+    <specializedTypesID>org.eclipse.papyrus.umldi.Class_NestedClassifierLabel</specializedTypesID>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" identifier="org.eclipse.papyrus.tutorial.anatomydi.WorkPart_Class_Shape" name="WorkPart (Class_Shape)" hint="Class_Shape">
+    <iconEntry iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <specializedTypesID>org.eclipse.papyrus.tutorial.anatomy.WorkPart</specializedTypesID>
+    <specializedTypesID>org.eclipse.papyrus.umldi.Class_Shape</specializedTypesID>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" identifier="org.eclipse.papyrus.tutorial.anatomydi.WorkPart_Class_Shape_CN" name="WorkPart (Class_Shape_CN)" hint="Class_Shape_CN">
+    <iconEntry iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <specializedTypesID>org.eclipse.papyrus.tutorial.anatomy.WorkPart</specializedTypesID>
+    <specializedTypesID>org.eclipse.papyrus.umldi.Class_Shape_CN</specializedTypesID>
+  </elementTypeConfigurations>
+</elementtypesconfigurations:ElementTypeSetConfiguration>
