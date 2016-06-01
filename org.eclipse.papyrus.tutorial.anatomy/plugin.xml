@@ -44,7 +44,22 @@
           path="types/anatomy.diagram.elementtypesconfigurations">
     </elementTypeSet>
  </extension>
+
+ <extension
+       point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
+    <elementTypeSet
+          clientContextID="org.eclipse.papyrus.infra.services.edit.TypeContext"
+          path="types/anatomy-gen.elementtypesconfigurations">
+    </elementTypeSet>
+ </extension>
  
+  <extension
+       point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
+    <elementTypeSet
+          clientContextID="org.eclipse.papyrus.infra.services.edit.TypeContext"
+          path="types/anatomydi-gen.elementtypesconfigurations">
+    </elementTypeSet>
+ </extension> 
  <extension
        point="org.eclipse.papyrus.infra.newchild">
     <menuCreationModel
@@ -85,4 +100,8 @@
             genModel="profiles/anatomy.genmodel"/>
    </extension>
 
+  <extension point="org.eclipse.uml2.uml.generated_package">
+     <profile uri="http://www.eclipse.org/papyrus/Anatomy"
+           location="pathmap://ANATOMY_PROFILE/anatomy.profile.uml#_pWlLsBzSEeaUCNZJoDLoVw"/>
+  </extension>  
 </plugin>
