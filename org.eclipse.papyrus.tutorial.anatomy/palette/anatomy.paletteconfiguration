@@ -12,11 +12,8 @@
   </drawerConfigurations>
   <drawerConfigurations id="org.eclipse.papyrus.tutorial.anatomy.palette.edgesdrawer" label="Anatomy Edges">
     <ownedConfigurations xsi:type="paletteconfiguration:StackConfiguration" id="org.eclipse.papyrus.tutorial.anatomy.palette.drawer.edges" label="Edges">
-      <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.tutorial.anatomy.palette.edges.blocks" label="Blocks" kind="ConnectionTool">
-        <elementDescriptors elementTypeId="org.eclipse.papyrus.tutorial.anatomy.types.blocks.Association_Edge"/>
-      </ownedConfigurations>
       <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.tutorial.anatomy.palette.edges.relationship" label="Relationship" kind="ConnectionTool">
-        <elementDescriptors elementTypeId="org.eclipse.papyrus.tutorial.anatomy.types.relationship.Association_Edge"/>
+        <elementDescriptors elementTypeId="org.eclipse.papyrus.tutorial.anatomydi.Relationship_Association_Edge"/>
       </ownedConfigurations>
     </ownedConfigurations>
   </drawerConfigurations>
